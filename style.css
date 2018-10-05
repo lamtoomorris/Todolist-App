@@ -1,82 +1,54 @@
-/* GENERAL SETUP */
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    background-color: firebrick;
+  }
+  p{
+    text-align: center
+  }
 
-body {
-    background-color: #E6E6E6;
-    font-family: arial, serif;
-}
-
-/* PAGE SETUP */
-
-.login-page {
-    max-width: 300px;
-    margin: 0 auto;
-    padding: 8% 0 0;
-}
-
-/* FORM SETUP */
-
-.login-form .text {
-    font-size: 14px;
-    font-weight: 900;
-    text-transform: normal;
-    text-align: center;
-}
-
-.login-form {
+  .main-content {
+    width: 250px;
+    height: 40%;
+    margin: 10px auto;
+    background-color: #fff;
+    border: 2px solid #e6e6e6;
+    padding: 40px 50px;
+  }
+  
+  .header {
+    border: 0px solid #000;
+    margin-bottom: 5px;
+  }
+  
+  .header img {
+    height: 50px;
+    width: 175px;
+    margin: auto;
     position: relative;
-    z-index: 1;
-    max-width: 300px;
-    
-    margin: 0 auto 35px;
-    padding: 45px;
-    
-    border: 0;
-    border-radius: 5px;
-    
-    background-color: #FFF;
-    text-align: center;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-}
-
-/* INPUT SETUP */
-
-.login-form input {
-    font-family: arial;
-    font-size: 12px;
-    
-    outline: none;
-    border: 0;
-    border-radius: 5px;
-    
-    margin: 0 0 15px;
-    padding: 15px;
-    
+    left: 40px;
+  }
+  
+  .input-1,
+  .input-2 {
     width: 100%;
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    border: 1px solid #dbdbdb;
     box-sizing: border-box;
-    
-    background-color: #F2F2F2;
-}
-
-/* BUTTON SETUP */
-
-.login-form button {
+    border-radius: 3px;
+  }
+  
+  .btn {
     width: 100%;
-    margin-top: 10px;
-    
-    font-family: arial;
-    font-size: 12px;
-    text-transform: capitalize;
-    
-    outline: none;
-    border: 0;
-    border-radius: 5px;
-    
-    padding: 15px;
-    
-    background-color: #F2CB6A;
-    color: #FFF;
-}
-
-.login-form button:hover,.login-form button:active,.login-form button:focus {
-  background-color: #F6B208;
-}
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    padding: 5px 12px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+  }
