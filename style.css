@@ -1,0 +1,82 @@
+/* GENERAL SETUP */
+
+body {
+    background-color: #E6E6E6;
+    font-family: arial, serif;
+}
+
+/* PAGE SETUP */
+
+.login-page {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 8% 0 0;
+}
+
+/* FORM SETUP */
+
+.login-form .text {
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: normal;
+    text-align: center;
+}
+
+.login-form {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    
+    margin: 0 auto 35px;
+    padding: 45px;
+    
+    border: 0;
+    border-radius: 5px;
+    
+    background-color: #FFF;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+/* INPUT SETUP */
+
+.login-form input {
+    font-family: arial;
+    font-size: 12px;
+    
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    
+    margin: 0 0 15px;
+    padding: 15px;
+    
+    width: 100%;
+    box-sizing: border-box;
+    
+    background-color: #F2F2F2;
+}
+
+/* BUTTON SETUP */
+
+.login-form button {
+    width: 100%;
+    margin-top: 10px;
+    
+    font-family: arial;
+    font-size: 12px;
+    text-transform: capitalize;
+    
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    
+    padding: 15px;
+    
+    background-color: #F2CB6A;
+    color: #FFF;
+}
+
+.login-form button:hover,.login-form button:active,.login-form button:focus {
+  background-color: #F6B208;
+}
